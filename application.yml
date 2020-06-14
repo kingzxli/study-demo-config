@@ -1,0 +1,17 @@
+spring: 
+  profiles: 
+    active: 
+     - dev
+     
+---
+spring: 
+  profiles: dev
+  application: 
+    name: study-demo-config-dev
+
+---
+spring: 
+  profiles: test
+  application: 
+    name: study-demo-config-test
+# utf-8格式保存
